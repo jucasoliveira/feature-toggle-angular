@@ -30,7 +30,7 @@ export class FeaturetoggledComponent implements OnInit {
   ngOnInit() {
     this.ngtoggled = Object.keys(this.data);
   }
-/*
+
   addToggle() {
     this.featuretoggled.push({
       text : this.text
@@ -44,7 +44,7 @@ export class FeaturetoggledComponent implements OnInit {
       }
     }
   }
-*/
+
 
 }
 
