@@ -1,6 +1,41 @@
-# Angular2Priject
+# Angular2Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
+
+##Feature Toggle
+
+Implemented a feature toggle component which shows if the feature is enable or not
+
+`featuretoggled.component.ts`
+```typescript
+data = {
+    feature1: {
+      displayed: true,
+      text : 'feature 1'
+    },
+    feature2: {
+      displayed: true,
+      text : 'feature 2'
+    },
+    feature3: {
+      displayed: false,
+      text : 'feature 3'
+    }
+  };
+```
+
+on html will be shown if the `displayed` it's `true`
+
+```html
+<ul>
+  <li *ngFor="let key of ngtoggled">
+    <div *ngIf="data[key].displayed">
+     {{data[key].text}}
+    </div>
+  </li>
+</ul>
+
+```
 
 ## Development server
 
