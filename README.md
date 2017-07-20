@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
-##Feature Toggle
+## Feature Toggle
 
 Implemented a feature toggle component which shows if the feature is enable or not
 
