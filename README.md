@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Implemented a feature toggle component which shows if the feature is enable or not
 
-`featuretoggled.component.ts`
+`src/app/featuretoggled/featuretoggled.component.ts`
 ```typescript
 data = {
     feature1: {
@@ -24,7 +24,7 @@ data = {
   };
 ```
 
-on html will be shown if the `displayed` it's `true`
+on `src/app/featuretoggled/featuretoggled.component.html` will be shown if the `displayed` it's `true`
 
 ```html
 <ul>
