@@ -1,0 +1,19 @@
+<h3>Featuretoggled</h3>
+<!--
+<form (submit)="addToggle()">
+  <input type="text" name="text" [(ngModel)]="text"/>
+</form>
+<ul>
+  <li *ngFor= "let featuretoggle of featuretoggled">
+    {{featuretoggle.text}} <button (click)="deleteFeatute(featuretoggle.text)"></button>
+  </li>
+</ul>
+-->
+
+<ul>
+  <li *ngFor="let key of ngtoggled">
+    <div *ngIf="data[key].displayed">
+     {{data[key].text}}
+    </div>
+  </li>
+</ul>
